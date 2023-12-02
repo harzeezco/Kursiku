@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .h1-bold {
+    @apply font-bold text-[28px] md:text-[56px] md:leading-[67.2px] leading-[33.3px] text-black;
+  }
+
+  .h1-medium {
+    @apply text-black font-medium md:text-5xl text-xl;
+  }
+
+  .h1-normal {
+    @apply text-dark-500 font-normal md:text-5xl text-xl;
+  }
+
+  .h2-semi-bold {
+    @apply font-semibold text-black md:text-[32px] leading-[38.8px] text-2xl;
+  }
+
+  .h2-semi-bold {
+    @apply font-medium text-black md:text-[32px] leading-[38.8px] text-2xl;
+  }
+
+  .h3-normal {
+    @apply md:text-[28px] font-normal leading-8 text-lg text-dark-600;
+  }
+
+  .h3-medium {
+    @apply md:text-[28px] font-medium leading-8 text-lg text-dark-600;
+  }
+
+  .h3-semibold {
+    @apply md:text-2xl font-semibold text-dark-600 text-lg;
+  }
+
+  .h3-medium24 {
+    @apply md:text-2xl font-medium text-dark-600 text-lg;
+  }
+
+  .text-description {
+    @apply md:text-lg text-sm
+  }
+}
