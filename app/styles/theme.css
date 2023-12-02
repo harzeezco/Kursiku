@@ -40,6 +40,6 @@
   }
 
   .text-description {
-    @apply md:text-lg text-sm
+    @apply md:text-lg text-sm;
   }
 }
