@@ -1,2 +1,9 @@
 @tailwind utilities;
 @import url('../styles/theme.css');
+
+@layer utilities {
+  .container {
+    @apply px-6 mx-auto max-w-[1170px];
+  }
+}
+
