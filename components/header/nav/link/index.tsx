@@ -4,7 +4,7 @@ import { NavLinkProps } from '@/types';
 
 function NavLink({ link = '', href = '/' }: NavLinkProps) {
   return (
-    <Link className='text-lg font-medium' href={href}>
+    <Link className='text-lg font-medium text-white' href={href}>
       {link}
     </Link>
   );

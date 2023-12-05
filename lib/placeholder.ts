@@ -6,16 +6,16 @@ export const NAVLINKS: NavLinkProps[] = [
     href: '/',
   },
   {
-    link: 'Products',
-    href: '/products',
+    link: 'Pricing',
+    href: '/pricing',
   },
   {
-    link: 'Newsfeed',
-    href: '/news-feed',
+    link: 'Service',
+    href: '/service',
   },
   {
-    link: 'Promo',
-    href: '/promo',
+    link: 'Blogs',
+    href: '/blog',
   },
 ];
 

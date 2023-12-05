@@ -1,5 +1,5 @@
-import { cn } from '@/lib/utils';
 import React, { ReactNode } from 'react';
+import cn from '@/lib/utils';
 
 function Button({
   variant = 'blue',
@@ -16,7 +16,7 @@ function Button({
         <button
           type='button'
           className={cn(
-            'rounded-[10px] border-none bg-dark-600 px-9 py-3 text-white',
+            'rounded-3xl border-none bg-orange-500 px-7 py-3 text-white',
             className,
           )}
           {...otherProps}
@@ -27,7 +27,7 @@ function Button({
         <button
           type='button'
           className={cn(
-            'rounded-[10px] border-[1.5px] border-none bg-white  px-9 py-3 text-black hover:bg-dark-400 hover:text-white',
+            'rounded-3xl border-none bg-white  px-7 py-3 text-black hover:bg-dark-400 hover:text-white',
             className,
           )}
           {...otherProps}
