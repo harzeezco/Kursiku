@@ -1,27 +1,37 @@
 import Button from '@/components/shared/button';
+import Image from 'next/image';
 import React from 'react';
 
 function Hero() {
   return (
-    <section className='home-hero-bg container relative mb-10'>
-      <div className='hero-img relative max-w-lg py-14 pb-32 lg:translate-x-1/4 lg:pl-4'>
+    <section className='container relative mb-10'>
+      <Image
+        className='absolute -z-10 h-full w-[90%] rounded-[20px] lg:w-[95%]'
+        src='/png/home/home-desktop.png'
+        alt='landing image'
+        width={1170}
+        height={1170}
+      />
+      <div className='max-w-lg px-7 py-14 pb-32 lg:translate-x-1/4 lg:pl-4'>
         <h1 className='h1-bold mb-5'>
-          Find the Best Home Furniture for Your Room
+          Find the Best
+          <br />
+          Home Furniture for Your Room
         </h1>
-        <p className='text-xl font-medium text-dark-200 lg:pr-4'>
+        <p className='font-medium text-white opacity-[80%] md:text-xl lg:pr-4 lg:text-dark-200'>
           Accent chairs at Herman Miller include a clear mid-century modern
           accent
         </p>
-        <div className='mt-14 flex items-center justify-between mr-7'>
+        <div className='mr-7 mt-9 flex flex-col items-start gap-6 md:flex-row lg:mt-14 lg:items-center lg:justify-between'>
           <Button variant='primary'>Shop now</Button>
 
-          <div className='flex items-center gap-8'>
-            <div>
-              <p>20k+</p>
+          <div className='flex gap-3'>
+            <div className='border-r-[1.7px] border-solid border-r-dark-500 pr-3'>
+              <p className='h3-semibold mb-2'>20k+</p>
               <span>Collections</span>
             </div>
             <div>
-              <p>16k</p>
+              <p className='h3-semibold mb-2'>16k</p>
               <span>Users</span>
             </div>
           </div>

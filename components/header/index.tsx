@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Logo from '../shared/logo';
 import Nav from './nav';
 
-import OtherMenu from './other-menu';
+import OtherMenu from './users-auth';
 
 function Header() {
   return (
