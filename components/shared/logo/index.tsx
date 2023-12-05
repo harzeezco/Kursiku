@@ -4,8 +4,19 @@ import React from 'react';
 
 function Logo() {
   return (
-    <Link href='/'>
-      <Image src='/png/shared/logo.png' alt='logo' width={107} height={29} />
+    <Link href='/' className='flex items-center gap-1'>
+      <Image
+        src='/png/shared/logo-icon.png'
+        alt='logo'
+        width={32}
+        height={28}
+      />
+      <Image
+        src='/png/shared/logo-text.png'
+        alt='logo'
+        width={76}
+        height={17}
+      />
     </Link>
   );
 }

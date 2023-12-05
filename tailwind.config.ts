@@ -12,7 +12,7 @@ const config: Config = {
         dark: {
           400: '#222',
           500: '#2F2F2F',
-          600: '#101010',
+          600: '#040D21',
         },
         gray: {
           100: '#FAFAFA',
@@ -20,6 +20,9 @@ const config: Config = {
           300: '#ABABAB',
           350: '#ABAFB3',
           400: '#909CB5',
+        },
+        orange: {
+          500: '#FE7747',
         },
       },
     },
