@@ -16,15 +16,18 @@ const config: Config = {
           500: '#2F2F2F',
           600: '#040D21',
         },
-        gray: {
-          100: '#FAFAFA',
+        green: {
+          100: '#B3C7BB',
           200: '#AAA',
           300: '#ABABAB',
           350: '#ABAFB3',
-          400: '#909CB5',
+          400: '#53BD95',
         },
         orange: {
           500: '#FE7747',
+        },
+        yellow: {
+          500: '#FECB32',
         },
       },
     },

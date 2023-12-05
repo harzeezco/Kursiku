@@ -5,4 +5,8 @@
   .container {
     @apply px-6 mx-auto max-w-[1170px];
   }
+
+  .bg {
+    background: #040d21 url('/png/home/hero-blur.png') no-repeat center center;
+  }
 }

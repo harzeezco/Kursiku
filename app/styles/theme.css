@@ -4,7 +4,7 @@
 
 @layer utilities {
   .h1-bold {
-    @apply font-bold text-[32px] md:text-[56px] md:leading-[57.2px] leading-[33.3px] md:text-dark-300 text-white;
+    @apply font-bold text-3xl md:text-6xl text-white;
   }
 
   .h1-medium {

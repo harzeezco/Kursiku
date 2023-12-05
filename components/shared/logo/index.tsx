@@ -4,8 +4,9 @@ import React from 'react';
 
 function Logo() {
   return (
-    <Link href='/' className='flex items-center gap-1'>
+    <Link href='/' className='flex items-center gap-3'>
       <Image
+        className='max-sm:hidden'
         src='/png/shared/logo-icon.png'
         alt='logo'
         width={32}
