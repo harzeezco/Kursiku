@@ -1,7 +1,7 @@
 import React from 'react';
 
 function TrustedClient() {
-  return <div className='md:-mt-20 text-center'>TrustedClient</div>;
+  return <div className='text-center md:-mt-20'>TrustedClient</div>;
 }
 
 export default TrustedClient;

@@ -22,12 +22,23 @@ function Button({
           {...otherProps}
         />
       );
+    case 'CTA':
+      return (
+        <button
+          type='button'
+          className={cn(
+            'rounded-[30px] flex items-center gap-6 border-none bg-green-400 px-7 py-4 text-white',
+            className,
+          )}
+          {...otherProps}
+        />
+      );
     case 'sign-up':
       return (
         <button
           type='button'
           className={cn(
-            'rounded-3xl border-none bg-white  px-7 py-3 text-black hover:bg-dark-400 hover:text-white',
+            'rounded-3xl border-none text-white px-7 py-3 hover:bg-dark-400 hover:text-white',
             className,
           )}
           {...otherProps}

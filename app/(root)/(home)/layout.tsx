@@ -5,7 +5,7 @@ import React, { ReactNode } from 'react';
 function layout({ children }: { children: ReactNode }) {
   return (
     <>
-      <HeaderHeroBg smHeight='[550px]' lgHeight='[770px]' />
+      <HeaderHeroBg />
       <Hero />
       {children}
     </>

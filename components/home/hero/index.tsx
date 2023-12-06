@@ -4,18 +4,28 @@ import React from 'react';
 
 function Hero() {
   return (
-    <section className='container relative mt-8 text-center'>
-      <h1 className='h1-bold'>
+    <section className='container relative mt-8 grid place-items-center'>
+      <h1 className='h1-bold text-center'>
         We Help You To
         <br />
         Grow Your <span className='text-yellow-500'>Business</span>
       </h1>
-      <p className='mx-auto mb-7 mt-3 max-w-screen-sm text-center text-lg text-green-100'>
-        I help Saas business businesses convert visitors into customer through
-        powerful positioning and crystal-clear messaging.
+      <p className='mx-auto mb-7 mt-3 text-center text-lg text-green-100 md:max-w-[530px]'>
+        We help Saas businesses convert visitors into customer through powerful
+        positioning and crystal-clear messaging.
       </p>
 
-      <Button variant='primary'>GET STARTED</Button>
+      <Button variant='CTA'>
+        GET STARTED{' '}
+        <div className='rounded-full bg-white p-3'>
+          <Image
+            src='/svg/arrow.svg'
+            alt='right arrow'
+            width={14}
+            height={14}
+          />
+        </div>
+      </Button>
 
       <Image
         className='mt-10'
