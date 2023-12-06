@@ -1,12 +1,19 @@
 import React from 'react';
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Inter, Public_Sans } from 'next/font/google';
 import './styles/globals.css';
 import Header from '@/components/header';
 
 const inter = Inter({
   subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
+  weight: ['400', '500', '600', '700', '800', '900'],
+  variable: '--font-inter',
+});
+
+const publicSans = Public_Sans({
+  subsets: ['latin'],
+  weight: ['500', '600', '700'],
+  variable: '--font--public-sans',
 });
 
 export const metadata: Metadata = {
@@ -21,7 +28,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body className={`${inter.className} overflow-x-hidden`}>
+      <body
+        className={`${inter.className} bg-gray-100 ${publicSans.variable} overflow-x-hidden`}
+      >
         <Header />
         {children}
       </body>

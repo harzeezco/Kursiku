@@ -31,8 +31,8 @@
     @apply md:text-[28px] font-medium leading-8 text-lg text-dark-600;
   }
 
-  .h3-semibold {
-    @apply md:text-[28px] font-semibold text-dark-600 text-lg;
+  .h3-bold {
+    @apply md:text-3xl font-bold text-dark-500 text-xl font-publicSans;
   }
 
   .h3-medium24 {

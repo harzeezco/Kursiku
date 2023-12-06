@@ -9,11 +9,14 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        gray: {
+          100: '#FAF9FF',
+        },
         dark: {
           200: '#555555',
           300: '#363636',
           400: '#222',
-          500: '#2F2F2F',
+          500: '#21263C',
           600: '#040D21',
         },
         green: {
@@ -29,6 +32,9 @@ const config: Config = {
         yellow: {
           500: '#FECB32',
         },
+      },
+      fontFamily: {
+        publicSans: ['var(--font--public-sans)'],
       },
     },
   },

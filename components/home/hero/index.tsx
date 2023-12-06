@@ -10,13 +10,13 @@ function Hero() {
         <br />
         Grow Your <span className='text-yellow-500'>Business</span>
       </h1>
-      <p className='mx-auto mb-7 mt-3 text-center text-lg text-green-100 md:max-w-[530px]'>
+      <p className='mx-auto mb-7 mt-3 text-center font-inter text-lg text-green-100 md:max-w-[530px]'>
         We help Saas businesses convert visitors into customer through powerful
         positioning and crystal-clear messaging.
       </p>
 
       <Button variant='CTA'>
-        GET STARTED{' '}
+        <span className='font-bold'>GET STARTED</span>{' '}
         <div className='rounded-full bg-white p-3'>
           <Image
             src='/svg/arrow.svg'
