@@ -10,7 +10,7 @@ function Hero() {
         <br />
         Grow Your <span className='text-yellow-500'>Business</span>
       </h1>
-      <p className='mx-auto mb-7 mt-3 text-center font-inter text-lg text-green-100 md:max-w-[530px]'>
+      <p className='mx-auto mb-7 mt-3 text-center text-lg text-green-100 md:max-w-[530px]'>
         We help Saas businesses convert visitors into customer through powerful
         positioning and crystal-clear messaging.
       </p>

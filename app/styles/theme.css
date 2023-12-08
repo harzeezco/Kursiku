@@ -15,8 +15,8 @@
     @apply text-dark-500 font-normal md:text-5xl text-xl;
   }
 
-  .h2-semi-bold {
-    @apply font-semibold text-black md:text-[32px] leading-[38.8px] text-2xl;
+  .h2-bold {
+    @apply font-bold text-dark-400 md:text-[40px] leading-[44.4px] text-3xl;
   }
 
   .h2-semi-bold {
@@ -40,6 +40,6 @@
   }
 
   .text-description {
-    @apply md:text-lg text-sm;
+    @apply md:text-lg text-sm font-medium text-gray-200;
   }
 }
