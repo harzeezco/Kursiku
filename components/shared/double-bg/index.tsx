@@ -9,7 +9,7 @@ type DoubleBgProps = {
   hasImage: boolean;
   imgSrc?: string;
   otherClasses?: string;
-  hasInnerImage: boolean;
+  hasInnerImage?: boolean;
   innerImgSrc?: string;
   innerImgWidth?: number;
   innerImgHeight?: number;
@@ -19,7 +19,7 @@ type DoubleBgProps = {
 function DoubleBg({
   backgroundColor = '#101512',
   backgroundWidth = '100%',
-  height = '',
+  height = '770px',
   hasImage = false,
   imgSrc,
   hasInnerImage = false,
@@ -40,7 +40,7 @@ function DoubleBg({
         'absolute inset-x-0 top-0 -z-10 min-h-[550px] sm:min-h-[770px]',
         otherClasses,
       )}
-      style={{ background, width: backgroundWidth, height }}
+      style={{ background, width: backgroundWidth, minHeight: height }}
       {...otherProps}
     >
       {hasInnerImage && (
@@ -65,6 +65,7 @@ DoubleBg.defaultProps = {
   innerImgWidth: 0,
   innerImgHeight: 0,
   innerImgAlt: '',
+  hasInnerImage: false,
 };
 
 export default DoubleBg;

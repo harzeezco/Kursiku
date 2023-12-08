@@ -35,8 +35,8 @@
     @apply md:text-2xl font-bold text-dark-500 text-xl font-publicSans;
   }
 
-  .h3-medium24 {
-    @apply md:text-2xl font-medium text-dark-600 text-lg;
+  .h4-semi-bold {
+    @apply md:text-[22px] font-medium text-white text-lg;
   }
 
   .text-description {

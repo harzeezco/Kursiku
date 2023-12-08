@@ -27,6 +27,7 @@ const config: Config = {
           300: '#ABABAB',
           350: '#6ECEAA',
           400: '#53BD95',
+          800: '#1E4F58',
           900: '#103C44',
         },
         orange: {

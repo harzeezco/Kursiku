@@ -3,10 +3,16 @@
 
 @layer utilities {
   .container {
-    @apply px-6 mx-auto max-w-[1170px];
+    @apply px-6 mx-auto max-w-[1150px];
   }
 
-  .bg {
-    background: #040d21 url('/png/home/hero-blur.png') no-repeat center center;
+  .features-container::before {
+    content: '';
+    background-image: url('/png/home/bg.png');
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 }
