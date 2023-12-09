@@ -23,7 +23,9 @@ function Button({
             className,
           )}
           {...otherProps}
-        />
+        >
+          {children}
+        </button>
       );
     case 'CTA':
       return (
@@ -34,7 +36,9 @@ function Button({
             className,
           )}
           {...otherProps}
-        />
+        >
+          {children}
+        </button>
       );
     case 'sign-up':
       return (
@@ -45,7 +49,9 @@ function Button({
             className,
           )}
           {...otherProps}
-        />
+        >
+          {children}
+        </button>
       );
     case 'blog-btn':
       return (

@@ -4,7 +4,7 @@ import Button from '@/components/shared/button';
 
 function ImageCard() {
   return (
-    <div className='grid w-fit max-w-[510px] gap-3 rounded-[10px] bg-gray-50 p-5'>
+    <div className='grid w-fit max-w-[510px] gap-3 rounded-[10px] bg-gray-50 p-5 py-7'>
       <Image
         src='/png/home/blog.png'
         alt='a man a having a call'

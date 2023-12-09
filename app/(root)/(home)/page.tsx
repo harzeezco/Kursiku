@@ -5,6 +5,7 @@ import Services from '@/components/home/services';
 import BusinessGrowth from '@/components/home/business-growth';
 import Features from '@/components/home/features';
 import Blog from '@/components/home/blogs';
+import HappyClients from '@/components/home/happy-clients';
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <BusinessGrowth />
       <Features />
       <Blog />
+      <HappyClients />
     </main>
   );
 }

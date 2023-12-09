@@ -28,7 +28,7 @@
   }
 
   .h3-medium {
-    @apply md:text-[28px] font-medium leading-8 text-lg text-dark-600;
+    @apply md:text-2xl font-medium leading-8 text-lg text-dark-250;
   }
 
   .h3-semi-bold {
