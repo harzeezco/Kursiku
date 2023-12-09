@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { Inter, Public_Sans } from 'next/font/google';
 import './styles/globals.css';
 import Header from '@/components/header';
+import Footer from '@/components/footer';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -33,6 +34,7 @@ export default function RootLayout({
       >
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

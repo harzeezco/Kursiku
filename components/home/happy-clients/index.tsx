@@ -23,7 +23,7 @@ function HappyClients() {
               solution.&quot;
             </h3>
           </blockquote>
-          <p className='flex items-center gap-2 text-description mt-3'>
+          <p className='text-description mt-3 flex items-center gap-2'>
             <svg
               width='22'
               height='3'
@@ -33,7 +33,7 @@ function HappyClients() {
             >
               <rect width='22' height='3' fill='black' />
             </svg>{' '}
-            Sayed Rahman- Co Founder of Design Ocean
+            Sayed Rahman - Co Founder of Design Ocean
           </p>
         </div>
       </article>
