@@ -23,8 +23,8 @@
     @apply font-medium text-black md:text-[32px] leading-[38.8px] text-2xl;
   }
 
-  .h3-normal {
-    @apply md:text-[28px] font-normal leading-8 text-lg text-dark-600;
+  .h3-bold {
+    @apply md:text-3xl font-bold text-lg text-dark-600;
   }
 
   .h3-medium {

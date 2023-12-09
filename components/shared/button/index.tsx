@@ -1,9 +1,12 @@
 import React, { ReactNode } from 'react';
 import cn from '@/lib/utils';
+import Image from 'next/image';
 
 function Button({
   variant = 'blue',
-  className,
+  className = '',
+  children = null,
+
   ...otherProps
 }: {
   variant: string;
@@ -44,15 +47,21 @@ function Button({
           {...otherProps}
         />
       );
-    case 'blue':
+    case 'blog-btn':
       return (
-        <button
-          type='button'
-          className={cn(
-            'btn-blue flex w-auto items-center justify-center rounded-[25px] border-none bg-blue-700 px-[30px] py-3 font-semibold text-white transition-pop-up',
-          )}
-          {...otherProps}
-        />
+        <button type='button' className='flex items-center justify-end gap-4'>
+          <span className='text-lg font-semibold transition-all hover:text-blue-400'>
+            {children}
+          </span>
+          <div className='grid h-[30px] w-[30px] place-items-center rounded-full bg-orange-500'>
+            <Image
+              src='/svg/arrow-right-direction.svg'
+              alt='arrow right direction'
+              width={16}
+              height={16}
+            />
+          </div>
+        </button>
       );
     default:
       return null;

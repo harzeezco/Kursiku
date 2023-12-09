@@ -9,7 +9,11 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        blue: {
+          400: '#0F8CE9',
+        },
         gray: {
+          50: '#FEFEFE',
           100: '#FAF9FF',
           200: '#6F7071',
         },
@@ -20,6 +24,7 @@ const config: Config = {
           450: '#111111',
           500: '#21263C',
           600: '#040D21',
+          700: '#3E4250',
         },
         green: {
           100: '#B3C7BB',
