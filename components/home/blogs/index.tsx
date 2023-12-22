@@ -3,7 +3,7 @@ import NoImageCard from './no-image-card';
 import ImageCard from './image-card';
 
 const NoImageCARDDETAILS = [
-  'Banks inpose heavy fees for trasacting ab road.',
+  'Banks impose heavy fees for transacting ab road.',
   'Choose to invest some or all of your account balance.',
   'Get a credit card that helps build business credit.',
 ];

@@ -1,31 +1,47 @@
-import Image from 'next/image';
-import Link from 'next/link';
 import React from 'react';
+import Image, { StaticImageData } from 'next/image';
+import Link from 'next/link';
 
-function Logo({ hasLogoIcon = false }: { hasLogoIcon?: boolean }) {
+type LogoProps = {
+  hasSymbol?: boolean;
+  symbolSrc?: string | StaticImageData;
+  srcPath?: string | StaticImageData;
+  srcText?: string;
+  className?: string;
+};
+
+function Logo({
+  hasSymbol = false,
+  symbolSrc = '',
+  srcPath = '',
+  srcText = '',
+  className = '',
+}: LogoProps) {
   return (
-    <Link href='/' className='flex items-center gap-3'>
-      {hasLogoIcon && (
+    <Link href='/' className={`flex items-center gap-3 ${className}`}>
+      {hasSymbol && (
         <Image
           className='max-sm:hidden'
-          src='/png/shared/logo-icon.png'
+          src={symbolSrc}
           alt='logo'
           width={32}
           height={28}
         />
       )}
-      <Image
-        src='/png/shared/logo-text.png'
-        alt='logo'
-        width={76}
-        height={17}
-      />
+      <>
+        {srcPath && <Image src={srcPath} alt='logo' width={76} height={17} />}
+        {srcText && <p>{srcText}</p>}
+      </>
     </Link>
   );
 }
 
 Logo.defaultProps = {
-  hasLogoIcon: false,
+  hasSymbol: false,
+  className: '',
+  srcText: '',
+  srcPath: '',
+  symbolSrc: '',
 };
 
 export default Logo;
