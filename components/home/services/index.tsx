@@ -13,7 +13,7 @@ function Services() {
       <div className='container grid place-items-center gap-10 p-14 md:grid-cols-2'>
         <div className=''>
           <h1 className='h2-bold mb-3'>
-            A website that your{' '}
+            A website that your
             <span className='text-orange-500'>customers</span> is killing your
             business
           </h1>
